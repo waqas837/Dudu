@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+diabetes_system.db
+.streamlit/secrets.toml
+.DS_Store
+*.log
+
+# Keep AI model artifacts under modals/, ignore accidental root copies
+/diabetes_model.pkl
+/best_diabetes_model.pkl
+/scaler.pkl
